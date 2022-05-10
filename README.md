@@ -48,10 +48,8 @@ $ git clone git@github.com:javabycomparison/kata
 $ cd kata
 
 # execute tests
-$ ./mvnw test
+$ ./gradlew test
 
 # run
-$ ./mvnw exec:java
-# run with parameters
-$ ./mvnw exec:java -Dexec.args="src smry"
+$ ./gradlew run
 ```
